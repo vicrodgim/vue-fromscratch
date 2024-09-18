@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiply the Counter</title>
+  </head>
+  <body>
+    <div id="app">
+    <h1>Multiply the Counter: {{count}}</h1>
+    <button v-on:click = "multiplyByTwo">by two</button>
+    <button v-on:click = "multiplyByThree">by three</button>
+    <button v-on:click = "reset"> Reset</button>
+    </div>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
